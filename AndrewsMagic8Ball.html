@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.10/lodash.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="Magic8Ball.css">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <img src="Magic8ballMarquee.png" width="100%">
+    </div>
+     <div class="greeting" id="greeting">
+      <h2>What's your name?</h2>
+        <input type="text" id="inputBox" placeholder="type your first name"/>
+        <button id="submitButton" type="submit" value="submit" onclick="getName()">Submit</button>
+      </div>
+      <div class="getNameResult">
+        <p id="postName"></p>
+      </div>
+      <div class="container" id="gameConsole">
+        <div class="row">
+          <div class="col-md-3">
+          </div>
+          <div class="col-md-3">
+              <label for="question">What is your question?</label>
+              <br>
+              <input type="text" id="question">
+          </div>
+          <div class="col-md-3">
+                <img id="response">
+          </div>
+        </div>
+      </div>
+
+</div>
+  </body>
+  <script src="AndrewsMagic8Ball.js" charset="utf-8"></script>
+</html>
