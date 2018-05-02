@@ -20,7 +20,7 @@ h3 {
   padding-bottom: 40px;
   padding-top: 40px;
   font-weight: 300px;
-  font-size: 80px;
+  font-size: 70px;
 
 }
 ul {
@@ -33,9 +33,10 @@ ul {
   background-color: white;
   background-size:cover;
   color: #FF8D65;
-  font-size: 70px;
+  font-size: 60px;
   font-weight: bold;
   text-align: center;
-  border: 5px solid red;
+  border: 20px solid #c34839;
   margin-right: auto;
+  border-radius: 30px;
 }
